@@ -5,10 +5,12 @@ export default class App {
    constructor($target) {
       this.$target = $target;
 
-      createStyleLink(this.$target, "src/css/nav.css");
-      createStyleLink(this.$target, "src/css/home.css");
-      createStyleLink(this.$target, "src/css/aboutme.css");
-      createStyleLink(this.$target, "src/css/skill.css");
+      this.nowUrl = window.location.href.split("#")[0];
+
+      createStyleLink(this.$target, this.nowUrl + "src/css/nav.css");
+      createStyleLink(this.$target, this.nowUrl + "src/css/home.css");
+      createStyleLink(this.$target, this.nowUrl + "src/css/aboutme.css");
+      createStyleLink(this.$target, this.nowUrl + "src/css/skill.css");
 
       // 다크모드 예제 시작
       const darkCheck = createElement("button", "dark-btn");
@@ -28,9 +30,9 @@ export default class App {
       // $target.appendChild(darkCheck);
       // 다크모드 예제 끝
 
-      const navigation = new Navigation({ $target });
+      const navigation = new Navigation({ $target, nowUrl: this.nowUrl });
       const homeSection = new HomeSection({ $target });
       const aboutmeSection = new AboutmeSection({ $target });
-      const skills = new SkillSection({ $target });
+      const skills = new SkillSection({ $target, nowUrl: this.nowUrl });
    }
 }

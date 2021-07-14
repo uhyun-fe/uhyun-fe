@@ -2,13 +2,13 @@ import { createElement } from "../util/createElement.js";
 import { nav_data } from "../assets/data/nav.js";
 
 export default class Navigation {
-   constructor({ $target }) {
+   constructor({ $target, nowUrl }) {
       this.section = createElement("section", "nav-section");
       this.navBox = createElement("div", "nav-box");
 
       const logo = createElement("h1", "logo");
       const logo_a = createElement("a");
-      logo_a.setAttribute("href", `/`);
+      logo_a.setAttribute("href", nowUrl);
       logo_a.innerText = nav_data.logo_text;
       logo.appendChild(logo_a);
 

@@ -4,7 +4,7 @@ import SectionTitle from "../components/SectionTitle.js";
 import SkillBox from "../components/SkillBox.js";
 
 export default class SkillSection {
-   constructor({ $target }) {
+   constructor({ $target, nowUrl }) {
       this.section = createElement("section", "skill-section");
       this.section.setAttribute("id", "skills");
       this.itemBox = createElement("div", "skill-total-box");
@@ -14,7 +14,7 @@ export default class SkillSection {
       skill.skill_list.forEach((s, i) => {
          new SkillBox({
             $target: this.itemBox,
-            img_url: `src/assets/images/image${i + 1}.jpg`,
+            img_url: `${nowUrl}src/assets/images/image${i + 1}.jpg`,
             skill: s,
          });
       });
