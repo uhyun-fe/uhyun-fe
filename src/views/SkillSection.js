@@ -14,7 +14,7 @@ export default class SkillSection {
       skill.skill_list.forEach((s, i) => {
          new SkillBox({
             $target: this.itemBox,
-            img_url: `/src/assets/images/image${i + 1}.jpg`,
+            img_url: `src/assets/images/image${i + 1}.jpg`,
             skill: s,
          });
       });

@@ -5,10 +5,10 @@ export default class App {
    constructor($target) {
       this.$target = $target;
 
-      createStyleLink(this.$target, "/src/css/nav.css");
-      createStyleLink(this.$target, "/src/css/home.css");
-      createStyleLink(this.$target, "/src/css/aboutme.css");
-      createStyleLink(this.$target, "/src/css/skill.css");
+      createStyleLink(this.$target, "src/css/nav.css");
+      createStyleLink(this.$target, "src/css/home.css");
+      createStyleLink(this.$target, "src/css/aboutme.css");
+      createStyleLink(this.$target, "src/css/skill.css");
 
       // 다크모드 예제 시작
       const darkCheck = createElement("button", "dark-btn");
