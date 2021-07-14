@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.aboutme-section {
+   display: flex;
+   height: 500px;
+   background: var(--light-background);
+}
+
+.aboutme-section .title-box {
+   padding-top: 100px;
+   padding-right: 100px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 40%;
+}
+
+.aboutme-section .desc-box {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: var(--light-font);
+   font-size: 0.9rem;
+}
+
+.aboutme-section .desc-box p {
+   margin-bottom: 30px;
+   line-height: 1.8;
+}
+
+.aboutme-section .button-box button:last-child {
+   margin-left: 30px;
+   color: var(--color);
+   background: var(--light-background);
+}
+
+.aboutme-section .button-box button:last-child:hover {
+   color: #ffffff;
+   background: var(--color);
+}

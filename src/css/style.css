@@ -1,6 +1,155 @@
 @charset "UTF-8";
 
+@font-face {
+   font-family: "GmarketSans";
+   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff") format("woff");
+   font-weight: 300;
+   font-style: normal;
+}
+@font-face {
+   font-family: "GmarketSans";
+   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+}
+@font-face {
+   font-family: "GmarketSans";
+   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+}
+
+:root {
+   --yellow: #fec111;
+   --skyblue: #39cefd;
+   --green: #01bb73;
+   --red: #dc3737;
+   --orange: #f97c46;
+}
+
+:root[dark-theme="light"] {
+   --dark-font: #32333c;
+   --medium-font: #666666;
+   --light-font: #9398aa;
+   --dark-background: #fafafa;
+   --light-background: #ffffff;
+   --shadow: #e2e2e2;
+}
+
+:root[dark-theme="dark"] {
+   --dark-font: #ffffff;
+   --medium-font: #cccccc;
+   --light-font: #9f9f9f;
+   --dark-background: #2b2c2c;
+   --light-background: #303131;
+   --shadow: #111111;
+}
+
+:root[color-theme="yellow"] {
+   --color: #fec111;
+}
+
+:root[color-theme="skyblue"] {
+   --color: #53bcec;
+}
+
+:root[color-theme="green"] {
+   --color: #01bb73;
+}
+
+:root[color-theme="red"] {
+   --color: #dc3737;
+}
+
+:root[color-theme="orange"] {
+   --color: #f97c46;
+}
+
 * {
    padding: 0;
    margin: 0;
+   box-sizing: border-box;
+   line-height: 1;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: "GmarketSans", sans-serif;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+img {
+   width: 100%;
+}
+
+ul,
+ol {
+   list-style-type: none;
+}
+
+button {
+   font-family: inherit;
+   color: inherit;
+   font-size: inherit;
+   font-weight: inherit;
+   background: none;
+   outline: none;
+   cursor: pointer;
+}
+
+#app {
+   padding-top: 80px;
+}
+
+section {
+   padding: 0 120px;
+}
+
+.section-title {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: var(--dark-font);
+   font-size: 1.7rem;
+}
+
+.section-title.left {
+   align-items: flex-start;
+}
+
+.section-title .title-line {
+   display: block;
+   margin-top: 25px;
+   width: 100px;
+   height: 4px;
+   border-radius: 10px;
+   background: var(--color);
+}
+
+.btn {
+   padding: 22px 30px 20px;
+   color: #ffffff;
+   border: 2px solid var(--color);
+   border-radius: 5px;
+   background: var(--color);
+   transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+   color: var(--color);
+   background: var(--light-background);
+}
+
+/* 예시 test */
+.dark-btn {
+   width: 100px;
+   height: 40px;
+   background: lightgreen;
 }
