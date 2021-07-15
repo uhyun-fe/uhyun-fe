@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.advice-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background: var(--color);
+}
+
+.advice-section .section-title {
+   margin-bottom: 50px;
+   color: #fff;
+}
+
+.advice-section .title-line {
+   background: #fff;
+}
+
+.advice-section .btn {
+   padding-left: 70px;
+   padding-right: 70px;
+   color: var(--color);
+   background: #fff;
+}
+
+.advice-section .btn:hover {
+   color: #fff;
+   border-color: #fff;
+   background: var(--color);
+}

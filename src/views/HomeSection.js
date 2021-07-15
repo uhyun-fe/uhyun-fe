@@ -13,8 +13,9 @@ export default class HomeSection {
       $h2.innerText = home.title;
       const desc = createElement("p", "home-desc");
       desc.innerText = home.desc;
-      const $button = createElement("button", "btn");
+      const $button = createElement("a", "btn");
       $button.innerText = home.btn_text;
+      $button.href = "#contact";
 
       this.textBox.appendChild($h2);
       this.textBox.appendChild(desc);

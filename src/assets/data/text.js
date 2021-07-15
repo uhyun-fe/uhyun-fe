@@ -44,3 +44,29 @@ export const skill = {
       },
    ],
 };
+
+export const advice = {
+   title: "Have Any Project In Mind?",
+   btn_text: "Contact",
+};
+
+export const contact = {
+   title: "Contact Me",
+   contact_info: {
+      title: "Contact Info",
+      name: "최유현",
+      email: "feyouhyun0957@gmail.com",
+      phone: "010-2261-2183",
+      github: "https://github.com/uhyun-fe",
+   },
+   guide_text: "The field is required.",
+   btn_text: "SEND MESSAGE",
+   emailjs: {
+      user_id: "user_85NMjjOWgLKvTIWaxQ1w8",
+      service_id: "service_tj4u362",
+      templete_id: "template_fw8tpas",
+   },
+   message_confirm_alert: "최유현에게 메일을 보내시겠습니까?",
+   message_success_alert: "메일을 성공적으로 보냈습니다.\n감사합니다.",
+   message_error_alert: "에러가 발생했습니다.\nContact Info로 문의주세요.",
+};

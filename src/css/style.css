@@ -31,8 +31,9 @@
    --dark-font: #32333c;
    --medium-font: #666666;
    --light-font: #9398aa;
-   --dark-background: #fafafa;
+   --dark-background: #fbfbfb;
    --light-background: #ffffff;
+   --input-background: #ffffff;
    --shadow: #e2e2e2;
 }
 
@@ -42,6 +43,7 @@
    --light-font: #9f9f9f;
    --dark-background: #2b2c2c;
    --light-background: #303131;
+   --input-background: #363737;
    --shadow: #111111;
 }
 
@@ -94,6 +96,12 @@ ol {
    list-style-type: none;
 }
 
+input,
+textarea {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   outline: none;
+}
+
 button {
    font-family: inherit;
    color: inherit;
@@ -109,7 +117,7 @@ button {
 }
 
 section {
-   padding: 0 120px;
+   padding: 0 10%;
 }
 
 .section-title {
@@ -140,6 +148,7 @@ section {
    border-radius: 5px;
    background: var(--color);
    transition: 0.2s ease-in-out;
+   cursor: pointer;
 }
 
 .btn:hover {
