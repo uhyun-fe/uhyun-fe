@@ -7,4 +7,5 @@ export const nav_data = {
       { title: "Portfolio", code: "portfolio" },
       { title: "Contact", code: "contact" },
    ],
+   footer_text: "방문해주셔서 감사합니다.",
 };

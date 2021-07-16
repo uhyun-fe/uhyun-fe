@@ -1,5 +1,5 @@
 import { createElement, createStyleLink } from "./util/createElement.js";
-import { Navigation, HomeSection, AboutmeSection, SkillSection, AdviceSection, ContactSection } from "./views/index.js";
+import { Navigation, HomeSection, AboutmeSection, SkillSection, AdviceSection, ContactSection, Footer } from "./views/index.js";
 import { contact } from "./assets/data/text.js";
 
 export default class App {
@@ -31,7 +31,7 @@ export default class App {
             document.documentElement.setAttribute("color-theme", "yellow");
          }
       });
-      $target.appendChild(darkCheck);
+      // $target.appendChild(darkCheck);
       // 다크모드 예제 끝
 
       const navigation = new Navigation({ $target, nowUrl: this.nowUrl });
@@ -40,6 +40,7 @@ export default class App {
       const skillSection = new SkillSection({ $target, nowUrl: this.nowUrl });
       const adviceSection = new AdviceSection({ $target });
       this.contactSection = new ContactSection({ $target, nowUrl: this.nowUrl });
+      const footer = new Footer({ $target });
 
       // onclick event
       $target.addEventListener("click", ({ path }) => {
