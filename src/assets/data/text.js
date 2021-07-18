@@ -45,6 +45,14 @@ export const skill = {
    ],
 };
 
+export const project = {
+   title: "Project",
+};
+
+export const experience = {
+   title: "Experience",
+};
+
 export const advice = {
    title: "Have Any Project In Mind?",
    btn_text: "Contact",

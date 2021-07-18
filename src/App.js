@@ -1,5 +1,15 @@
 import { createElement, createStyleLink } from "./util/createElement.js";
-import { Navigation, HomeSection, AboutmeSection, SkillSection, AdviceSection, ContactSection, Footer } from "./views/index.js";
+import {
+   Navigation,
+   HomeSection,
+   AboutmeSection,
+   SkillSection,
+   ProjectSection,
+   ExperienceSection,
+   AdviceSection,
+   ContactSection,
+   Footer,
+} from "./views/index.js";
 import { contact } from "./assets/data/text.js";
 
 export default class App {
@@ -11,6 +21,7 @@ export default class App {
       createStyleLink(this.$target, this.nowUrl + "src/css/home.css");
       createStyleLink(this.$target, this.nowUrl + "src/css/aboutme.css");
       createStyleLink(this.$target, this.nowUrl + "src/css/skill.css");
+      createStyleLink(this.$target, this.nowUrl + "src/css/project.css");
       createStyleLink(this.$target, this.nowUrl + "src/css/advice.css");
       createStyleLink(this.$target, this.nowUrl + "src/css/contact.css");
 
@@ -38,6 +49,8 @@ export default class App {
       const homeSection = new HomeSection({ $target });
       const aboutmeSection = new AboutmeSection({ $target });
       const skillSection = new SkillSection({ $target, nowUrl: this.nowUrl });
+      const projectSection = new ProjectSection({ $target });
+      const experienceSection = new ExperienceSection({ $target });
       const adviceSection = new AdviceSection({ $target });
       this.contactSection = new ContactSection({ $target, nowUrl: this.nowUrl });
       const footer = new Footer({ $target });
@@ -74,3 +87,5 @@ export default class App {
       );
    }
 }
+
+// https://droitthemes.com/wp/mak/home-dark/

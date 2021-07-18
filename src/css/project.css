@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.project-section {
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background: var(--light-background);
+}
+
+/* experience area */
+
+.experience-section {
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background: var(--dark-background);
+}
