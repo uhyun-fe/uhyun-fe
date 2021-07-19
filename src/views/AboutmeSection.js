@@ -12,10 +12,8 @@ export default class AboutmeSection {
 
       new SectionTitle({ $target: this.titleBox, title: aboutme.title, text_order: "left" });
 
-      const desc1 = createElement("p");
-      desc1.innerText = aboutme.desc1;
-      const desc2 = createElement("p");
-      desc2.innerText = aboutme.desc2;
+      const desc = createElement("p");
+      desc.innerText = aboutme.desc;
       const btn1 = createElement("button", "btn");
       btn1.innerText = aboutme.btn1_text;
       const btn2 = createElement("button", "btn");
@@ -23,8 +21,7 @@ export default class AboutmeSection {
 
       this.buttonBox.appendChild(btn1);
       this.buttonBox.appendChild(btn2);
-      this.descBox.appendChild(desc1);
-      this.descBox.appendChild(desc2);
+      this.descBox.appendChild(desc);
       this.descBox.appendChild(this.buttonBox);
       this.section.appendChild(this.titleBox);
       this.section.appendChild(this.descBox);

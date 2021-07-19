@@ -90,6 +90,7 @@ class ContactItem {
       if (href) {
          this.$span.className = "is_link";
          this.$span.href = href;
+         this.$span.target = "_blank";
       }
 
       this.item.appendChild(this.$img);
