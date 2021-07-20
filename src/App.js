@@ -65,6 +65,9 @@ export default class App {
                this.sendEmail(data);
             }
          }
+
+         const projectCategoryBtn = path.find((p) => (p.className ? p.className.includes("project-category") : false));
+         if (projectCategoryBtn) projectSection.selectCategory({ $target: projectCategoryBtn });
       });
    }
 

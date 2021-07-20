@@ -46,6 +46,11 @@ export const skill = {
 
 export const project = {
    title: "Project",
+   categories: [
+      { title: "All", code: "all" },
+      { title: "User Web", code: "user" },
+      { title: "Admin Web", code: "admin" },
+   ],
 };
 
 export const experience = {

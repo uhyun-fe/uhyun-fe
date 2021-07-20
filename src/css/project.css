@@ -6,6 +6,33 @@
    background: var(--light-background);
 }
 
+.project-section .project-categories {
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+.project-section .project-categories li {
+   padding: 10px 30px;
+}
+
+.project-section .project-category {
+   padding-bottom: 5px;
+   color: var(--light-font);
+   font-size: 0.8rem;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+}
+
+.project-section .project-category:hover {
+   color: var(--color);
+}
+
+.project-section .project-category.active {
+   color: var(--color);
+   border-bottom: 1px solid var(--color);
+}
+
 /* experience area */
 
 .experience-section {
