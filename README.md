@@ -33,7 +33,7 @@ Junior Web Frontend Developer.
 > Bithumb Korea
 > \
 > \
-> **# 2021.10 ~**
+> **# 2021.10 ~ .**
 > \
 > Web Engineer
 > \
