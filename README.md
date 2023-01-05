@@ -1,14 +1,50 @@
-# Hello, I'm Youhyun!
+# Hello, good to meet you!
 
-Junior web front-end developer
+I'm Youhyun.\
+Junior Web Frontend Developer.
+
+### 📚 Record
+
+> **# 2015.03 ~ 2020.02**
+> \
+> major in **Physical Education**
+> \
+> Dongduk Women's University
+> \
+> \
+> **# 2020.02 ~ 2020.08**
+> \
+> training course of **Java Spring Web**
+> \
+> THEJOEUN ACADEMY
+> \
+> \
+> **# 2020.09 ~ 2021.07**
+> \
+> Frontend Engineer
+> \
+> Nepp
+> \
+> \
+> **# 2021.08 ~ 2021.10**
+> \
+> work on **Frontend** project in **Tech Academy**
+> \
+> Bithumb Korea
+> \
+> \
+> **# 2021.10 ~**
+> \
+> Web Engineer
+> \
+> SangmoSoft
+
 
 ### 🙋🏻‍♀️ Tech
 
 ###### Language
 
-![Javascript Badge](https://img.shields.io/badge/Javascript-f7df1e?style=flat-square&logo=Javascript&logoColor=black)
-![PHP Badge](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white)
-![Dart Badge](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Javascript Badge](https://img.shields.io/badge/Javascript-f7df1e?style=flat-square&logo=Javascript&logoColor=black) ![PHP Badge](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white) ![Dart Badge](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 
 ###### Web
 
