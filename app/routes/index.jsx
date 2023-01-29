@@ -1,8 +1,15 @@
+import { Nav } from "~/components/Nav";
+import { Home } from "~/components/Home";
+
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to YouHyun Portfolio!</h1>
-      <p>test</p>
+    <div className="d-fr jc-c h-100">
+      <div className="d-fc w-100 lh-md" style={{ maxWidth: "500px" }}>
+        <div className="d-fr h-100">
+          <Home />
+        </div>
+        <Nav />
+      </div>
     </div>
   );
 }
