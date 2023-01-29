@@ -3,7 +3,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
-    "predeploy": "remix-serve build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "remix dev",
     "start": "remix-serve build"
