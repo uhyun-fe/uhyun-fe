@@ -1,7 +1,7 @@
 # Hello, good to meet you!
 
 I'm Youhyun.\
-Junior Web Frontend Developer.
+Web Frontend Developer.
 
 ### 📚 Record
 
@@ -58,7 +58,3 @@ Junior Web Frontend Developer.
 ### 💌 About Me
 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:feyouhyun0957@gmail.com)](mailto:feyouhyun0957@gmail.com) [![Velog Badge](https://img.shields.io/badge/Velog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@feyouhyun0957)](https://velog.io/@feyouhyun0957)
-
-##### Portfolio
-
-[최유현 포트폴리오](https://port-0-uhyun-fe-sop272gldh6rtw8.gksl2.cloudtype.app/)
